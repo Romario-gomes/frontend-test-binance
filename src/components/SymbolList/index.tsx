@@ -35,7 +35,6 @@ const SymbolList: React.FC<Props> = ({ onSelect }) => {
         toggleSymbol(symbol);
       }
     });
-    console.log('Entrou');
     if(onSelect) {
       onSelect(); 
     }
