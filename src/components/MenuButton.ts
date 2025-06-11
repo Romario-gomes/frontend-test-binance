@@ -10,7 +10,7 @@ export const MenuButton = styled.button`
   border: none;
   color: #000;
 
-  @media (min-width: 1024px) {
+  @media (min-width: 1025px) {
     display: none;
   }
 `;

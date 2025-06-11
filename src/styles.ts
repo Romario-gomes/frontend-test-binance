@@ -28,6 +28,16 @@ export const InputContainer = styled.div`
       width: 90%;
     }
   }
+
+  @media (max-width: 425px) {
+    width: 100%;
+    display: flex; 
+    justify-content: flex-end;
+
+    input, select {
+      width: 80%;
+    }
+  }
 `;
 
 export const Header = styled.div`

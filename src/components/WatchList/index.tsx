@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useSymbols } from '../../contexts/SymbolsContext';
-import { Table, Td, Th, Thead, Tr } from '../Table';
+import { Table, Td, Th, Thead, Tr } from './styles';
 import { Header, InputContainer, Select } from '../../styles';
 import { Button } from '../Button';
-import { CirclePlus, Plus } from 'lucide-react';
+import { CirclePlus } from 'lucide-react';
 import { Container } from './styles';
 
 const WatchList: React.FC = () => {
@@ -75,7 +75,7 @@ const WatchList: React.FC = () => {
                         <Th>Last Price</Th>
                         <Th>Best Price</Th>
                         <Th>Ask Price</Th>
-                        <Th>Price Change (%)</Th>
+                        <Th>Price Change</Th>
                     </tr>
                 </Thead>
                 <tbody>

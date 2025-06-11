@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useSymbols } from '../../contexts/SymbolsContext';
 import { Button } from '../Button';
-import { Table, Td, Th, Thead, Tr } from '../Table';
+import { Table, Td, Th, Thead, Tr } from './styles';
 import { InputContainer } from '../../styles';
 import { Content, Main } from './styles';
 
